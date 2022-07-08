@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="manipulation.js"></script>
+
+</head>
+<body class = 'back'>
+    <div class="form" id="forms" style="align-self:center ;">
+    <!--  division for the whole form in centerS -->
+            <div class="headcont">
+                <!-- div for heading and liner and border purple -->
+                <div class="bloc">             
+                
+                <div class="purpleborder">
+                        <!-- purpleborder -->
+                    </div>
+                    <div class = 'common added'>
+                        <div><H1> Peddoori Santosh Vyas</H1></div>
+                        <div><section>This form is a google form. This form is created with HTML and css</section>
+                        <div style="margin-top: 3%; margin-bottom: 5%;"><section style="color:red">*Required</section></div>
+                        </div>
+                    </div>
+                    <!-- <div class="common">
+                        <i class="material-icons" style="float:left">cloud</i
+                        <span ><section style="display:inline">ae20b043@smail.iitm.ac.in</section></span>
+                        <span>(not shared)</span>
+                        <span><a href="#">Switch account</a></span>
+                        <i class="material-icons" style="float:right">cloud</i
+                    </div> -->
+            </div>
+           <form id="googleformdata">
+            <div class="common adder bloc">
+                <section><label for="Name">What is your name?</label> <section>
+                <input type="text" id="Name" name:"name" required placeholder="Your answer"><br>
+
+            </div>
+            <div class="common adder bloc">
+                <section ><label for="college">Enter your college name.</label><section>
+                <input type="text" id="college" name:"college" placeholder="Your answer" required><br>
+
+            </div>
+            <div class="common adder bloc">
+                <section><label for="Email">Enter your Email</label><section>
+                <input type="text" id="Email" name:"Email" required placeholder="Your Email"><br>
+
+            </div>
+            <div class="common adder bloc">
+                <section><label for="pnum">Enter your mobile no</label><section>
+                <input type="number" id="pnum" name:"mobile number" required placeholder="Your answer"><br>
+
+            </div>
+            <div >
+                <br>
+                <input type="button" class="butto" onclick="myFunction()" value="Submit" >
+            </div>
+            <div><p>Never Submit passwords through google forms</p></div>
+        </form>
+    </div>
+</body>
+</html>

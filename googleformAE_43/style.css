@@ -1,0 +1,77 @@
+.back {
+background-color: #f0ebf8;
+display: block;
+
+
+}
+
+.form{
+    /* display : flex */
+    margin-right: 30%;
+    margin-left: 30%;
+    justify-content: center;
+
+}
+#forms{
+    
+    max-width:40%; 
+    align-items: center;
+    justify-content: center;
+}
+.purpleborder{
+    background-color: #673ab7;
+    min-height: 5px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.common{
+    background-color:#ffffff;
+    border-top: 1px solid #dadce0;
+    border-bottom: 1px solid #dadce0;
+    padding:10px
+
+    
+}
+.inl{
+ text-align: center;
+ padding-top: 10px;
+ 
+
+}
+.material-icons{
+  padding-right: 10px;
+  float:center
+}
+.adder{
+    margin: 10px 0px 0px 0px
+}
+.bloc{
+    border-radius: 8px;
+    min-height: 50px;
+}
+input{
+    text-size-adjust: 10px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border:none;
+    border-bottom:1px solid #d8d8d8;
+
+
+}
+
+.butto{
+    background-color: #6406bf;
+    margin-top:10px;
+    border-radius: 5px;
+    font-size: larger;
+    text-decoration: none;
+    text-size-adjust: 5px;
+    color: #ffffff;
+}
+.added{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
