@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>First GForm</title>
+</head>
+<body>
+    <form class="container" action="#" method="GET" onSubmit="handleSubmit(event)" name="gform">
+        <div class="header">
+            <h2>Tarak Das</h2>
+            This is a google form. This was created using HTML and CSS.
+            <p id="required">*Required</p>
+        </div>
+        <div class="name">
+            <label for="name">What is your name?<span id="required">*</span></label>
+            <br /><br />
+            <input id="name" type="text" placeholder="Your Answer" name="name" size="80" onChange="handleChange(event)" />
+        </div>
+        <div class="college">
+            <label for="college">Enter your college name.</label>
+            <br /><br />
+            <input id="college" type="text" placeholder="Your Answer" name="college" size="80" onChange="handleChange(event)" />
+        </div>
+        <div class="email">
+            <label for="email">Enter your mail id.<span id="required">*</span></label>
+            <br /><br />
+            <input id="email" type="text" placeholder="Your Answer" name="email" size="80" onChange="handleChange(event)" />
+        </div>
+        <div class="phone">
+            <label for="phone">Enter your phone number.</label>
+            <br /><br />
+            <input id="phone" type="text" placeholder="Your Answer" name="phone" size="80" onChange="handleChange(event)" />
+        </div>
+        <div class="submit">
+            <button type="submit" class="btn">Submit</button> 
+        </div>
+    </form>
+    <div>
+        <h5 style="color: rgb(86, 85, 85)">Never submit your passwords through Google Forms.</h5>
+    </div>
+</body>
+</html>

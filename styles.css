@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(235,213,240); 
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    background-color: white;
+    height: 30%;
+    width: 50%;
+    border-top: 10px solid purple;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 5px;
+    line-height: 0.8em;
+}
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+#required {
+    color: red;
+}
+.name {
+    background-color: white;
+    font-weight: bold;
+    height: 40%;
+    width: 50%;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 8px;
+    line-height: 2em;
+}
+#name {
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0.5px solid gray;
+    border-left: 0px;
+    height:50%;
+    outline: none;
+    border-radius: 4px;
+    transition: border 200ms linear;
+}
+#name:focus {
+    border-bottom: 2px solid purple;
+}
+.college {
+    background-color: white;
+    font-weight: bold;
+    height: 40%;
+    width: 50%;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 8px;
+    line-height: 2em;
+}
+
+#college {
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0.5px solid gray;
+    border-left: 0px;
+    height: 50%;
+    outline: none;
+    border-radius: 4px;
+    transition: border 200ms linear;
+}
+
+#college:focus {
+    border-bottom: 2px solid purple;
+}
+.email {
+    background-color: white;
+    font-weight: bold;
+    height: 40%;
+    width: 50%;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 8px;
+    line-height: 2em;
+}
+
+#email {
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0.5px solid gray;
+    border-left: 0px;
+    height: 50%;
+    outline: none;
+    border-radius: 4px;
+    transition: border 200ms linear;
+}
+
+#email:focus {
+    border-bottom: 2px solid purple;
+}
+.phone {
+    background-color: white;
+    font-weight: bold;
+    height: 40%;
+    width: 50%;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 8px;
+    line-height: 2em;
+}
+
+#phone {
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0.5px solid gray;
+    border-left: 0px;
+    height: 50%;
+    outline: none;
+    border-radius: 4px;
+    transition: border 200ms linear;
+}
+
+#phone:focus {
+    border-bottom: 2px solid purple;
+}
+.sep {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.submit {
+    width: 53%;
+    padding: 0px;
+    margin: 6px 0px 0px 0px;
+    border: 0px;
+}
+.btn {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    padding: 8px 8px 8px 8px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    transition: background-color 200ms linear;
+}
+.btn:hover {
+    background-color: rgb(132, 58, 132);
+}
