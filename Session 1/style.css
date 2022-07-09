@@ -1,0 +1,129 @@
+*{
+    
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin-bottom: 60px;
+}
+body{
+    background: #ede7f6;
+}
+
+.main{
+    width: 0%;
+    height: 0%;
+    position: static;
+    top: 0;
+    
+}
+
+.details{
+    left: 401px;
+    background: white;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 700px;
+    height: 170px;
+    padding-bottom: 10px;
+}
+.vcolor{
+    position: absolute;
+    top: 23;
+    border-radius: 10px;
+    left: 410px;
+    width: 700px;
+    height:170px;
+    background-color: rgb(103, 58, 183);
+    margin: auto;
+    
+}
+
+.details p{
+    color: #202124;
+    padding: 0px;
+    margin: 0px;
+    padding-left:30px ;
+}
+.details #aname{
+    margin-top:30px;
+}
+.details #des{
+    margin-top: 20px;
+}
+.details #req{
+    margin-top: 20px;
+}
+
+.name{
+    left: 401px;
+    position: relative;
+    background-color: white;
+    width: 700px;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px ;
+    border-radius: 10px;
+}
+
+.name input{
+    border: none;
+    border-bottom: 1px solid gainsboro;
+
+}
+
+.name p{
+    color: #202124;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.name input{
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    padding-top: 50px;
+    padding-right: 150px;
+}
+
+.submit{
+    
+    
+    
+}
+
+#submit{
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px ;
+    border-radius: 10px;
+    position: relative;
+    left: 401px;
+    background-color: purple;
+    margin-bottom: 10px;
+}
+
+#submit:hover{
+    background-color: black;
+}
+
+#dis{
+    font-size: small;
+    position: absolute;
+    left: 408px;
+    
+}
+
+.empty{
+    left: 401px;
+    position: relative;
+    margin: auto;
+    width: 700px;
+    height: 0px;
+    padding-bottom: 50px;
+}
