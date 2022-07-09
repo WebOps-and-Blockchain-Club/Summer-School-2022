@@ -1,0 +1,110 @@
+*{ 
+    margin: 0%;
+}
+body{
+    
+    flex-direction: column;
+    
+    align-items: center;
+    background-color: aqua;
+    font-size: 15px;
+    font-weight:10;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding:20px 10px;
+    
+    
+}
+p1{
+    font-size: 15px;
+
+}
+p2{
+    font-size: 15px;
+    color: red;
+}
+.star{
+    color: red;
+    font-size:12px;
+}
+
+
+.heading1{
+    
+    
+    border-top: 10px solid darkblue;
+    padding:20px 20px;
+    
+    
+    background-color: white;
+    
+    
+    border-radius: 8px;
+    
+
+}
+input{
+    
+    border: none;
+    
+    outline: none;
+    border-bottom: 1px solid black;
+    
+   
+
+}
+input,
+input::-webkit-input-placeholder {
+    font-size: 10px;
+    
+}
+.name{
+    
+    margin-top: 11px;
+    padding:25px 10px;
+    
+    background-color: white;
+    
+    border-radius: 8px;
+    
+
+}
+
+
+.Collegename{
+    margin-top: 11px;
+    padding:25px 10px;
+    
+    background-color: white;
+    border-radius: 8px;
+}
+.Email{
+    padding:25px 10px;
+    margin-top: 11px;;
+    background-color: white;
+    border-radius: 8px;
+    
+}
+.mobile{
+    padding:25px 10px;
+    margin-top: 11px;
+    background-color: white;
+    border-radius: 8px;
+    
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color:blue;
+    border-radius: 8px;
+    color: white;
+
+}
+
+p3{
+    margin-top: 5px;
+    margin-top: 11px;
+    font-size: 14px;
+    text-align: left;
+}
