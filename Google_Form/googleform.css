@@ -20,6 +20,7 @@ body{
     resize: none;
     outline: none;
     writing-mode:none;
+    background-color:#fffbf7;
 }  
 .submit{
     padding-left: 0px;
@@ -48,4 +49,11 @@ body{
     padding-top:0px;
     background-color:#f6edfc;
     /* margin-left:25%; */
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none; 
+    margin: 0; 
+    opacity: 1;
 }
