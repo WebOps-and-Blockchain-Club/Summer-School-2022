@@ -1,0 +1,62 @@
+html{
+    background-color:rgb(246, 225, 246);
+     }
+
+body{
+    margin-left: 430px;
+    font-family:Roboto,sans-serif;
+    margin-right:400px;
+
+}
+.First{
+    text-align:justify;
+    border: 0px solid;
+    border-radius: 10px;
+    padding:20px 10px;
+    padding-top:15px;
+    padding-left:20px;
+    font-size:13px;
+    background-color: whitesmoke;
+    position:relative;
+}
+.First div{
+    background: rgb(154, 2, 167);
+    position:absolute;
+    top:0px;left:0px;right:0px;
+    border-radius: 10px;
+    border-bottom-left-radius:0px ;border-bottom-right-radius:0px ;
+    height:5px;
+    width:auto;
+    
+}
+.First span{
+    color:red
+}
+.Small{
+    border: 0px solid;
+    margin-top:10px;
+    border-radius: 10px;
+    font-size:13px;
+    padding:5px 10px;
+    background-color: whitesmoke;
+    padding-bottom:20px;
+    padding-left:20px;
+}
+input{
+    border:none;
+    border-bottom:1px solid;
+    border-color: grey;
+    background-color:whitesmoke;
+}
+#myButton{
+    margin-top:10px;
+    border:1px;
+    font-size:12px;
+    color:white;
+    padding:8px;
+    border-radius:5px;
+    background:rgb(154, 2, 167)
+}
+.span{
+    font-size:9px;
+}
