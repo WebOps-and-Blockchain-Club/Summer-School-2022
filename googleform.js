@@ -1,4 +1,4 @@
-document.getElementById("submit").onclick = function(params){
+document.getElementById("submit").onclick = function(){
     var email = document.getElementById("emailadd").value;
     var dep = document.getElementById("department").value;
     var issue = document.getElementById("issue").value;
