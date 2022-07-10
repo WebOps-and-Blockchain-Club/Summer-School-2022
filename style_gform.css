@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex; 
+    background-color:rgba(118, 39, 245, 0.095);
+    margin-top: 0.3cm;
+    margin-bottom: 5mm;
+    font: 15px Arial;
+    flex-direction: column;
+    align-items: center;  
+}
+
+ .header{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: left; 
+    justify-content: center;
+    background-color: white;
+    padding: 30px 20px;
+    border: 1px solid lightgray;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-radius: 0.2cm;
+    padding-right: 5.9cm;
+    margin-bottom: 0mm;
+    border-top-width: 2mm;
+    border-top-color: rgba(63, 8, 172, 0.897);
+ }
+ 
+ .header h1{
+    font-weight:bold;
+    font-size: 25px;
+    padding: 10px 0px;
+}
+ 
+
+.header h2 {
+    font-weight: normal;
+    font-size: 12px;
+    padding: 5px 0px;
+}
+
+.header h3 {
+    font-weight: normal;
+    font-size: 12px;
+    padding: 5px 0px;
+    color: red;
+}
+
+ 
+.mainBody {
+    display: flex;
+    margin-top: 10.8%;
+    margin-left: 0cm;
+    flex-direction: column; 
+    font-size: small;
+  }
+
+.questions{
+    align-items: center;
+    
+}
+  
+.par1{
+    border: 1px solid lightgray;
+    border-radius: 0.2cm;
+    border-style: none;
+    background-color: white;
+    margin-top: 2mm;
+    margin-bottom: 2mm;
+    padding: 30px 30px;
+    padding-right: 8cm;
+}
+
+.par1 p2{
+    color: red;
+}
+
+.par2{
+    border: 1px solid lightgray;
+    border-radius: 0.2cm;
+    background-color: white;
+    border-style: none;
+    margin-top: 2mm;
+    margin-bottom: 2mm;
+    padding: 30px 20px;
+    padding-right: 9.5cm;
+}
+
+.par3{
+    border: 1px solid lightgray;
+    border-radius: 0.2cm;
+    background-color: white;
+    border-style: none;
+    margin-top: 2mm;
+    margin-bottom: 2mm;
+    padding: 30px 20px;
+    padding-right: 9.5cm;
+}
+
+.par3 p5{
+    color: red;
+}
+
+.par4{
+    border: 1px solid lightgray;
+    border-radius: 0.2cm;
+    background-color: white;
+    border-style: none;
+    margin-top: 2mm;
+    margin-bottom: 2mm;
+    padding: 30px 20px;
+    padding-right: 9.5cm;
+}
+
+  
+   input {
+   
+    padding: 1px 2px;
+    padding-top: 7mm;
+    padding-right: 1cm;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    outline: none; 
+    
+  }
+  
+  
+  button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(63, 8, 172, 0.897);
+    color: white;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 1mm;
+    font-size:smaller;
+    padding: 2mm 5mm;
+  }
+  
+  .end p7{
+    font-size: smaller;
+    font-weight: bold;
+  }
