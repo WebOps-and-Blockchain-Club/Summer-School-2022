@@ -1,0 +1,46 @@
+.header{
+    background-color: white;
+    left:30%;
+    align-items:center;
+    padding-top: 20px;
+    height:150px;
+    width:600px;
+    position: relative;
+    text-align: left;
+    border-top: 10px solid rgba(76, 20, 141, 0.845);
+    border-radius: 10px;
+    line-height: 25px;
+}
+
+.main{
+    background-color: white;
+    left:30%;
+    align-items: center;
+    text-align: left;
+    position : relative;
+    padding-top: 10px;
+    height: 150px;
+    width: 600px;
+    border-radius: 10px;
+    line-height: 40px;
+}
+
+button{
+    margin : 10px;
+    padding : 10px 15px;
+    width:70px;
+    align-items: center;
+    left: 29.5%;
+    position: relative;
+    background-color: rgba(76, 20, 141, 0.845);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    outline : none;
+}
+
+.button :hover{
+    text-decoration: underline;
+}
+
+
