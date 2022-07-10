@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_gform.css">
+    <title>Google form</title>
+</head>
+
+<body>
+    <!-- header starts -->
+    
+    <div class="header">
+        <h1>Ramachandra Kannan</h1>
+        <h2>This is a google form. This form is created with HTML and CSS.</h2>
+        <h3>*Required</h3>
+    </div>
+
+    <!-- mainbody starts -->
+     <div class="mainBody">
+        <div class="questions">
+            
+            
+                <div class="par1">
+                    <p1>What is your name?</p1>
+                    <p2>*</p2><br>
+                    <input placeholder="Your Answer" id="name"><br>
+                </div>
+                <div class="par2">
+                    <p3>Enter your college name.</p3><br>
+                    <input placeholder="Your Answer" id="college_name"><br>
+                </div>
+                <div class="par3">
+                    <p4>Enter your email.</p4>
+                    <p5>*</p5><br>
+                    <input placeholder="Your Answer" id="email_id"><br>
+                </div>
+                <div class="par4">
+                    <p6>Enter your mobile no.</p6><br>
+                    <input placeholder="Your Answer" id="mobile_no"><br>
+                </div>
+            
+        </div>    
+        
+        <div class="end">
+                <button type="button" onclick="myFunction()">Submit</button><br>
+                <p7>Never submit passwords through Google Forms.</p7>
+        </div>  
+        
+    </div>
+
+    <script>
+        function myFunction() {
+          
+            name_display = document.getElementById("name").value;
+
+            if (name_display=="") {
+                console.log("Please enter your name. It is a mandatory field.");
+                return;
+            }
+            college_name_display = document.getElementById("college_name").value;
+
+            if (college_name_display=="") {
+                college_name_display="Not specified";
+            }
+
+            email_id_display = document.getElementById("email_id").value;
+
+            if (email_id_display=="") {
+                console.log("Please enter your Email-id. It is a mandatory field.");
+                return;
+            }
+
+            mobile_no_display = document.getElementById("mobile_no").value;
+
+            if (mobile_no_display=="") {
+                mobile_no_display="Not specified";
+            }
+            
+
+            let text1 = "Name - ";
+            let text2 = "College name - "
+            let text3 = "Email-id - "
+            let text4 = "Mobile number - "
+
+            let name_output = text1.concat(name_display);
+            let college_name_output = text2.concat(college_name_display);
+            let email_id_output = text3.concat(email_id_display);
+            let mobile_no_output = text4.concat(mobile_no_display);
+
+            console.log(name_output);
+            console.log(college_name_output);
+            console.log(email_id_output);
+            console.log(mobile_no_output);
+
+	}
+        
+    </script>
+     
+</body>
+</html>
