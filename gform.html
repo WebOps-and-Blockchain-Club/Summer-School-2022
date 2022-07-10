@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="google-form-style.css">
+    <link rel="stylesheet" href="data_collection.js">
+    <title>Google form</title>
+</head>
+
+<body>
+    <div class="above">
+        <h1><hr>Mohammed Naseer</h1>
+        <h3>This is a Google Form. This form is created by HTML and CSS.</h3>
+    </div>
+    <header id="demo">
+        <h5>*Required</h5>
+        <p>What is your name?</p> <h5>*</h5>
+        <input type="Name">
+        <p>Enter your college name</p>
+        <input type="College_name">
+        <script>
+            var College_name;
+        </script>
+
+        <p>Enter your email</p>
+        <h5>*</h5>
+        <input type="Email">
+    
+        <p>Enter your mobile no.</p>
+        <input type="Mobile no.">
+    
+    </header>
+
+    <p id="trail" style="display:none">
+        name     <br>
+        College_name<br>
+        Email <br>
+        Mobile no. <br>
+    </p>
+
+    <button type="button" onclick="document.getElementById('demo').style.display='none'; 
+    document.getElementById('trail').style.display='block';">Submit</button>
+
+</body>
+</html>

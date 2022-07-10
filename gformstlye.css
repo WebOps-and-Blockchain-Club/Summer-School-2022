@@ -1,0 +1,94 @@
+*{
+    background: rgb(241, 215, 239);
+}
+
+h1{
+    margin-left: 500px;
+    align-content: center;
+    padding: 0px 25px;
+    background: white;
+    margin-bottom: 0px;
+    margin-right: 400px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.above hr{
+    margin-bottom: 10px;
+    min-height: 5px;
+    color:blueviolet;
+    background: blueviolet;
+    border-radius: 5px;
+}
+
+.above h3{
+    padding: 12.5px 25px;
+    margin-top: 0px;
+    border-radius: 0px;
+}
+
+
+.above h5 {
+    padding-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+h3{
+    margin-left: 500px;
+    margin-right: 400px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding: 5px 25px;
+    background: white;
+    display: flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+button{
+    color: white;
+    background:rgb(107, 63, 189);
+    display: flex;
+    border-radius: 3px;
+    justify-items: centre;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 505px;
+}
+
+p{
+    margin-left: 500px;
+    margin-right: 400px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding: 5px 25px;
+    background: white;
+    display: flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+h5 {
+    margin-left: 500px;
+    margin-right: 400px;
+    margin-top: 0px;
+    padding: 0px 25px;
+    margin-bottom: 0px;
+    color: red;
+    background: white;
+}
+
+input{
+    margin-left: 500px;
+    min-width: 593px;
+    background: white;
+    padding-left: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: grey;
+    border-bottom-width: 2px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
