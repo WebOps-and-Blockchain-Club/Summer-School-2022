@@ -1,0 +1,79 @@
+/* Main Styling */
+
+body {
+    width: 100%;
+    background-color: rgb(243, 232, 243); 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+div {
+    flex: 1;
+    margin: 0 auto;
+    width: 800px;
+    background-color: white;
+    padding: 20px;
+    margin: 12px;
+    padding-left: 25px;
+    border-radius: 10px;
+}
+
+input {
+    width: 50%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    width: 100px;
+}
+button:hover{
+    background-color:rgb(178, 120, 232);
+}
+
+input:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+      
+    }
+}
+
+/* Class Specific Styles */
+
+.header {
+    border-top: 10px solid blueviolet;
+}
+
+.field p {
+    margin-top: 5px;
+}
+
+.required {
+    color: red;
+}
+
+.footer {
+    background-color: inherit;
+    margin-top: -10px;
+    margin-left: -25px;
+}
+
+.footer p {
+    font-size: 14px;
+}

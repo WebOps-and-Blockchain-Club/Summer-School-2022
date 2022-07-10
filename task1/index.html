@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Google Form Clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <form id="myform" action="" onsubmit="return false">
+    <div class="header">
+        <h1>Created by Vicky Kumar</h1>
+        <p>This is a Google form clone I created using HTML, CSS & JavaScript.</p>
+        <p class="required">*Required</p>
+    </div>
+    <div class="field form">
+        <p>Enter your name.<span class="required">*</span></p>
+        <input id = "name" type="text" placeholder="Vicky Kumar" required>
+    </div>
+    <div class="field form">
+        <p>Enter your college name.</p>
+        <input id = "college" type="text" placeholder="IIT Madras">
+    </div>
+    <div class="field form">
+        <p>Enter your email.<span class="required">*</span></p>
+        <input id = "email" type="email" placeholder="abc@gmail.com" required>
+    </div>
+    <div class="field form">
+        <p>Enter your mobile number.</p>
+        <input id = "mobile" type="text" placeholder="+91 9945386427">
+    </div>
+    
+    <div class="footer form">
+        <button id="submit">Submit</button>
+        <p class="final-para">Never submit your passwords through Google Forms.</p>
+    </div>
+    </form>
+
+    <script src="./script.js"></script>
+    
+  </body>
+
+</html>
