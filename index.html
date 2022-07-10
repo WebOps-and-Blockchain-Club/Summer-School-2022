@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="main_line"><hr /></div>
+      <div class="header">
+        <h2>Dharneesh</h2>
+        <p>This is a google form. This form is created with HTML and CSS.</p>
+        <p style="color: red">*Required</p>
+      </div>
+
+      <div class="field">
+        What is your name?<span style="color: red">*</span><br /><input
+          type="text"
+          class="name"
+          name="name"
+          placeholder="Your name"
+          required
+        />
+        <div class="line"><hr></div>
+        <p style="color: red; display: none" class="ename">
+          Please enter a name!!
+        </p>
+      </div>
+
+      <br />
+      <div class="field">
+        Enter your college name.<br /><input
+          class="college_name"
+          type="text"
+          name="college_name"
+          placeholder="Your answer"
+        />
+        <div class="line"><hr></div>
+      </div>
+      <br />
+      <div class="field">
+        Enter your email.<span style="color: red">*</span><br /><input
+          type="text"
+          class="email"
+          name="email"
+          placeholder="Your email"
+          required
+        />
+        <div class="line"><hr></div>
+        <p style="color: red; display: none" class="eemail">
+          Please enter a valid email!!
+        </p>
+      </div>
+      <br />
+      <div class="field">
+        Enter your mobile no.<span style="color: red">*</span> <br /><input
+          type="text"
+          class="mob_no"
+          name="mob_no"
+          placeholder="Your answer"
+        /><br />
+        <div class="line"><hr></div>
+        <p style="color: red; display: none" class="emob_no">
+          Please enter a valid mobile no!!
+        </p>
+      </div>
+      <button type="submit" onclick="myfun()">Submit</button>
+      <p class="never">Never submit passwords through Google forms</p>
+    </div>
+  </body>
+</html>
