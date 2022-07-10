@@ -1,0 +1,74 @@
+body{
+    background-color:#ede7f6;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif; 
+}
+.fullform{
+    padding-left: 30%;
+    
+}
+.header, .q1, .q2, .q3, .q4{
+    width: 60%;
+    height:100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.topBlue{
+    background-color:rgb(103,58,183);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height:10px;
+    left: -20px;
+    position: relative;
+    top:-20px;
+    width: calc(100% + 40px);
+}
+
+.star{
+    color:red;
+}
+.q1_a, .q2_a, .q3_a, .q4_a{
+   height: 40px;
+    position: relative;
+ 
+}
+input{
+    border-color:white ;
+    border:none;
+    
+}
+
+.subm{
+    background-color: rgb(103,58,183);
+    border-radius: 5px;
+    font-size: 14pt;
+    font-weight: 500;
+    color:white;
+    width:107px;
+    height:44px;
+}
+.myName{
+    font-size: 14pt;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+}
+.line{
+    background-color: rgba(0,0,0,.12);
+    bottom: 15px;
+    height: 1px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 50%;
+}
+.warning{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    line-height: 16px;
+    color: #70757a;
+    color: rgba(0,0,0,.66);
+    margin-top: 8px;
+}

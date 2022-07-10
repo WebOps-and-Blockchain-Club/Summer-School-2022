@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Google Form</title>
+    <script src="./formsubmission.js"></script>
+  </head>
+  <body>
+
+      <form name="myForm">
+        <div class="fullform">
+            <div class="header">
+              <div class="header_sub">
+                <div class="topBlue"></div>
+                <div class="title">
+                  <div class="title_sub">
+                    <div
+                      class="myName"
+                      dir="auto"
+                      role="heading"
+                      aria-level="1"
+                    >
+                     <h1> Mohammed Anshad K</h1>
+                    </div>
+                  </div>
+                  <div class="desc" dir="auto">
+                    This is a google form. This form is created with HTML and
+                    CSS.<br><br>
+                  </div>
+                </div>
+                <div class="required" aria-hidden="true" dir="auto">
+                    <span class="star">*Required</span>
+                </div>
+              </div>
+            </div>
+            <div class="questions">
+              <div class="q1">
+                <div class="q1_q">
+                  <label for="name">What is your name?<span class="star">*</span><br><br><br></label>
+                </div>
+                <div class="q1_a">
+                  <input type="text" name="name" class="q_1" placeholder="Your name" id="Name">
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="q2">
+                <div class="q2_q">
+                  <label for="college">Enter your college name.<br><br><br></label>
+                </div>
+                <div class="q2_a">
+                  <input type="text" name="college" class="q_2" placeholder="Your answer" id="CollegeName">
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="q3">
+                <div class="q3_q">
+                  <label for="email">Enter your email.<br><br><br></label>
+                </div>
+                <div class="q3_a">
+                  <input type="text" name="email" class="q_3" placeholder="Your email" id="Email">
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="q4">
+                <div class="q4_q">
+                    <label for="mob">What is your mobile no.<br><br><br></label>
+                </div>
+                <div class="q4_a">
+                  <input type="text" name="mob" class="q_4" placeholder="Your answer" id="MobNo">
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+            <div class="end">
+            <div class="submit">
+              <input type="button" value="Submit" class="subm" onclick="toConsole()">
+            </div>
+            <div class="warning">
+              
+              Never submit passwords through Google Forms.
+            </div>
+        </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
