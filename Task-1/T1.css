@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Roboto,sans-serif;
+    height: 100vh;
+    background-color: rgb(238, 232, 246);
+}
+
+.s1{
+    border-top: 6px solid rgb(103, 3, 197);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left:30%;
+    margin-right:30%;
+    background-color: white;
+    padding: 30px 30px;
+}
+
+.s2{
+    margin-top: 10px;
+    margin-left:30%;
+    margin-right:30%;
+    background-color: white;
+    padding: 30px 30px;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Text{
+    font-size: 15px;
+    padding: 7px 0px;
+}
+
+.notify{
+    font-size: 15px;
+    color: red;
+    padding: 0px 0px 6px 0px;
+}
+
+.reqd{
+    font-size: 15px;
+    color: red;
+}
+
+input{
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 1px solid rgb(180,180,180);
+}
+
+button{
+    margin-top: 20px;
+    margin-left:30%;
+    margin-right:30%;
+    margin-bottom: 10px;
+    padding: 10px 25px;
+    background-color: rgb(103,3,197);
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+}
+
+.note{
+    margin-left:30%;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
