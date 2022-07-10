@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="googleform.css">
+	
+</head>
+<body>
+
+		<div class="form">
+		<div class="title-div">
+			<h1>Abhinav Sonone</h1>
+			<p>This is a google form. This form is created with HTML and CSS.</p>
+			<p class="required">*Required</p>
+		</div>
+
+		<div class="name-div">
+			<div class="name">What is your name?<span class="required">*</span></div>
+			<div class="input-div"><input type="input" id="txtname" name="answer" placeholder="Your answer"></div>
+		</div>
+		
+		<div class="college-div">
+			<div class="name">Enter  your college name.</div>
+			<div class="input-div"><input type="input" id="txtcollege" name="answer" placeholder="Your answer"></div>
+		</div>
+
+		<div class="gmail-div">
+			<div class="name">Enter  your email.<span class="required">*</span></div>
+			<div class="input-div"><input type="input" id="txtgmail" name="answer" placeholder="Your email"></div>
+		</div>
+
+		<div class="mobile-div">
+			<div class="name">Enter  your mobile no.</div>
+			<div class="input-div"><input type="input" id="txtmobile" name="answer" placeholder="Your answer"></div>
+		</div>
+
+		<div>
+			<input class="btn" type="submit" id="submit" name="Submit">
+		</div>
+
+		<div class="last-div">
+			<p class="never">Never submit passwords through Google Forms.</p>
+			<p class="term">This content is neither created nor endorsed by Google, Report Abuse - Term of Service - Private Policy</p>
+			<h2>Google Forms</h2>
+		</div>
+		
+	</div>
+	<script>
+		const fname = document.getElementById('txtname');
+		const fcollege = document.getElementById('txtcollege');
+		const fgmail = document.getElementById('txtgmail');
+		const fmobile = document.getElementById('txtmobile');
+		
+		
+		function display(){
+			
+			console.log(fname.value);
+			console.log(fcollege.value);
+			console.log(fgmail.value);
+			console.log(fmobile.value);
+			
+		}
+		submit.addEventListener('click',display);
+		
+	</script>
+</body>
+</html>
