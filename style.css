@@ -1,0 +1,102 @@
+.main{
+    width: 650px;
+    margin: auto;
+    position: absolute;
+    left: 30%;
+    background-color: rgb(222, 200, 246);
+    display: grid;
+    grid-template-rows: 200px 150px 150px 150px 200px;
+    row-gap: 10px;
+}
+.div1{
+    background-color: wheat;
+}
+.div2{
+    background-color: purple;
+    border-radius: 10px;
+    height: fit-content;
+}
+.div3{
+    background-color: white;
+    border-radius: 10px;
+}
+.div4{
+    background-color: white;
+    border-radius: 10px;
+}
+.div5{
+    background-color: white;
+    border-radius: 10px;
+}
+.div2-1{
+    position: relative;
+    height: 190px;
+    width: auto;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+.discription{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.underline{
+    width: 400px;
+    border-style: none;
+}
+.sec1{
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+.submit{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: purple;
+    color: white;
+    margin-right: 445px;
+}
+.inputbox{
+    margin-left: 20px;
+}
+.input1{
+    height: 15px;
+    width: 400px;
+    border: none;
+}
+.input1:focus{
+    outline: none;
+    border: 1px solid white;
+}
+.submit:hover{
+    opacity: 0.8;
+}
+.submit:active{
+    opacity: 0.6;
+}
+.clearform{
+    border-style: none;
+    height: 35px;
+    background-color: rgb(222, 200, 246);
+    width: 100px;
+    color: purple;
+    display: inline-block;
+    padding-right: 2px;
+    border-radius: 10px;
+}
+.clearform:hover{
+    background-color:rgb(216, 180, 255);
+}
+.clearform:active{
+    background-color: rgb(206, 163, 252);
+}
