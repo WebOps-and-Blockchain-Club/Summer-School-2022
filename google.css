@@ -1,0 +1,65 @@
+body{
+    background-color: #ede7f6;
+    font-family: Roboto,Sans-serif;
+}
+.form{
+    height: 1100px;
+    width: 600px;
+    margin: auto;
+}
+.required{
+    font size: 13px;
+    color: red;
+}
+.title-div{
+    height: 150px;
+    width: 600px;
+    background-color: #FDFEFE;
+    margin: 15px;
+    border-radius: 8px;
+    border-top: 8px solid #6703c4;
+    padding: 25px;
+}
+.name-div, .college-div, .gmail-div, .mobile-div{
+    height: 150px;
+    width: 650px;
+    background-color: #FDFEFE;
+    margin: 15px;
+    border-radius: 8px;
+}
+.name{
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    font-size: 15px;
+}
+.input-div{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.input-div input{
+    width:300px;
+    border:0;
+    outline:0;
+    border-bottom: 1.5px solid #DCD7D7;
+    font-size: 15px;
+}
+.btn{
+    height: 36px;
+    width: 100px;
+    background-color: #6703c4;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 540;
+    border: none;
+    padding: 10px;
+    position: absolute;
+    margin: 15px;
+    color: white;
+}
+.never{
+    padding-left: 15px;
+    font-size: 12px;
+    padding-top: 70px;
+    font-weight: 400;
+}
