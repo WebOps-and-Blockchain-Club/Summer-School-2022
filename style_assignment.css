@@ -1,0 +1,102 @@
+html{
+    background-color:  rgb(236, 228, 244);
+}
+
+.para2{
+    color:rgb(244, 15, 15)
+}
+
+.header{
+    
+    background-color: white;
+    margin-right: 450px;
+    margin-left: 430px;
+    margin-bottom: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+   border-radius: 8px;
+}
+.body1{
+    background-color: white;
+    margin-right: 450px;
+    margin-left: 430px;
+    margin-bottom: auto;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+   border-radius: 8px;
+   font-size: large;
+   font-display: initial;
+}
+
+.body2{
+    background-color: white;
+    margin-right: 450px;
+    margin-left: 430px;
+    margin-bottom: auto;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+   border-radius: 8px;
+   font-size: large;
+   font-display: initial;
+}
+
+.body3{
+    background-color: white;
+    margin-right: 450px;
+    margin-left: 430px;
+    margin-bottom: auto;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+   border-radius: 8px;
+   font-size: large;
+   font-display: initial;
+}
+
+.body4{
+    background-color: white;
+    margin-right: 450px;
+    margin-left: 430px;
+    margin-bottom: auto;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+   border-radius: 8px;
+   font-size: large;
+   font-display: initial;
+}
+
+input{
+    width:40%;
+    border:none;
+    outline:none;
+    padding-left:5px  0px;
+    border-bottom: 2px solid rgb(233, 233, 233);
+}
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    line-height: 3;
+}
+input[type="text"]::placeholder {  
+    padding-left:0px; 
+} 
+.submit{
+    margin-left:430px;
+    margin-top:15px;
+}
+
+h4{
+    margin-left:430px;
+}
+
+.req{
+    color:red;
+
+}
