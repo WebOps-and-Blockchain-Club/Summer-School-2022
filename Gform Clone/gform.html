@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gform.css">
+     
+    <title>Gform Clone - Hamsavardhan D</title>
+</head>
+<body>
+    <p class="border_top"></p>
+    <div class="title">
+        <h1>Hamsavardhan D </h1>
+        <p class="des">This is a google form.This form is created  with HTML and CSS.</p>  
+        <p style="color: red;font-size: small; margin-left: 20px"> *Required </p> 
+        <hr>    
+        
+    </div>
+    <br>
+    <br>
+    <div class="qn">
+        <h3 class="question">What is your name?<span style="color:red">*</span></h3>
+        <form action=""><input type="text" placeholder="Your answer" id="name"></form>
+        
+    </div>
+    <div class="qn">
+        <h3 class="question">Enter your College Name.</h3>
+        <form action=""><input type="text" placeholder="Your answer" id="cname"></form>
+        
+    </div>
+    <div class="qn">
+            <h3 class="question">Enter your E-Mail.<span style="color:red">*</span></h3>
+            <form action=""><input type="email" placeholder="Your answer" id="em"></form>
+                
+    </div>
+    <div class="qn">
+        <h3 class="question">Enter your Mobile No.</h3>
+        <form action=""><input type="text" placeholder="Your answer" id="mno"></form>
+        
+    </div>
+    <div class="submit">
+        <button class="button1" onclick="submit()">Submit</button>   
+    </div>
+    <div class="footer">
+        <p class="f1">Never submit passwords through Google Forms.</p>
+    </div>
+</body>
+<script>
+    function submit(){
+        var name = document.getElementById("name").value;
+        var cname = document.getElementById("cname").value;
+        var em = document.getElementById("em").value;
+        var mno = document.getElementById("mno").value;
+       
+        console.log(name, cname, em, mno);
+    }
+    
+</script>
+</html>
