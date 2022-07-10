@@ -1,0 +1,46 @@
+.heading{
+    padding: 20px 30px 40px 30px;
+    margin-top: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color: white;
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(236, 232, 240);
+    align-items: center;
+}
+.req{
+    padding-top: 20px;
+    color: red;
+}
+#top{
+    border-top: 5px solid rgb(140, 0, 255);
+}
+.question{
+    padding-bottom: 40px;
+}
+.Answer{
+    border-bottom: 1px solid rgb(199, 197, 197);
+    width: 300px;
+}
+input{
+    border: none;
+    outline: none;
+    color:gray;
+    width: 300px;
+}
+button{
+    background-color: blueviolet;
+    color:white;
+    border:none;
+    border-radius:5px;
+    width:100px;
+    padding:10px 15px;
+    margin-top:20px;
+    margin-left: 450px;
+    margin-bottom: 20px;
+}
+.safety{
+    margin-left:450px;
+}

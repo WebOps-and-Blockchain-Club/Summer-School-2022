@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading" id="top">
+        <div><h2>Ayyappa Kethan Pachipulusu<h2></div>
+        <div>This is a google form created from html and css</div>
+        <div class="req">*Required</div>
+    </div>
+    <div class="heading" id="test">
+        <div class="question">What is your name?<span style="color:red">*</span></div>
+        <div class="Answer" id="q1"><input type="text" id="i1" value="Your Answer" onclick="e1()"></div>
+    </div>
+    <div class="heading">
+        <div class="question">Enter your college name<span style="color:red">*</span></div>
+        <div class="Answer" id="q2"><input type="text" id="i2" value="Your Answer" onclick="e2()"></div>
+    </div>
+    <div class="heading">
+        <div class="question">Enter your email id<span style="color:red">*</span></div>
+        <div class="Answer" id="q3"><input type="text" id="i3" value="Your Answer" onclick="e3()"></div>
+    </div>
+    <div class="heading">
+        <div class="question">Enter your mobile no.<span style="color:red">*</span></div>
+        <div class="Answer" id="q4"><input type="text" id="i4" value="Your Answer" onclick="e4()"></div>
+    </div>
+    <div><button type = "submit" onclick="print()">Submit</button></div>
+    <div class="safety">Don't submit passwords in google form</div>
+    <script src="gf.js"></script>
+</body>
+</html>
