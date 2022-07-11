@@ -1,0 +1,69 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Google Font Icons -->
+        <link rel="stylesheet" href="tsk.css" />
+    
+        <title>g_formm</title>
+    </head>
+
+    <body class="bd">
+        <div class="mainpage">
+            <div class="header">
+                <div class="mname">Kshitiz Singh</div>
+                <div class="desc">This is a google form. This form is created with HTML, CSS and JS</div>
+                <div class="req">*Required</div>
+            </div>
+
+            <div class="fr">
+                
+                <div class="f1">
+                    <div class="desc_f1">Your name:<div class="ast">*</div></div>
+                    <div class="empty_f1"><br></div>
+                    <input type="text" id="name_f1" name="name_f1" placeholder="Your answer..." class="name_f1">
+                </div>
+
+                <div class="f2">
+                    <div class="desc_f2">Name of your college:</div>
+                    <div class="empty_f2"><br></div>
+                    <input type="text" id="name_f2" name="name_f2" placeholder="Your answer..." class="name_f2">
+                </div>
+
+                <div class="f3">
+                    <div class="desc_f3">Enter your email:<div class="ast">*</div></div>
+                    <div class="empty_f3"><br></div>
+                    <input type="text" id="name_f3" name="name_f3" placeholder="Your answer..." class="name_f3">
+                </div>
+
+                <div class="f4">
+                    <div class="desc_f4">Enter your mobile no.:</div>
+                    <div class="empty_f4"><br></div>
+                    <input type="text" id="name_f4" name="name_f4" placeholder="Your answer..." class="name_f4">
+                </div>
+
+                <div class="sub">
+                    <button onclick="f()">Submit</button>
+                </div>
+
+                <script>
+                    function f(){
+                        let x= document.getElementById("name_f1");
+                        console.log(x.value);
+
+                        x= document.getElementById("name_f2");
+                        console.log(x.value);
+
+                        x= document.getElementById("name_f3");
+                        console.log(x.value);
+
+                        x= document.getElementById("name_f4");
+                        console.log(x.value);
+                    }
+                </script>
+            </div>
+        </div>
+    </body>
+
+</html>
