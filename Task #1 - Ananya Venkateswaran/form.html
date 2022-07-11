@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <title>Google Form</title>
+    
+    <meta name="author" content="Ananya Venkateswaran">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="form.css" />
+    <script type="text/javascript" src="form.js"></script>
+
+</head>
+
+<body>
+    
+    <div id="header">
+        
+        <p id="Ananya_Venkateswaran">Shivansh Srivastava</p>
+        
+        <p id="description">This is a google form. This form is created with HTML and CSS</p>
+      
+        <p id="required">*Required</p>
+        
+    </div>
+    
+    <form>
+
+        <div id="name">
+            
+            <p id="name1">What is your name?<em>*</em></p>
+            
+            <input type="text" id="name2" name="name" placeholder="Your Answer">
+            
+        </div>
+        
+        <div id="college">
+            
+            <p id="college1">Enter your college name.</p>
+            
+            <input type="text" id="college2" name="college" placeholder="Your Answer">
+
+        </div>
+        
+        <div id="email">
+
+            <p id="email1">Enter your email.<em>*</em></p>
+            
+            <input type="email" id="email2" name="email" placeholder="Your Answer">
+
+        </div>
+        
+        <div id="mobile">
+            
+            <p id="mobile1">Enter your mobile no.</p>
+            
+            <input type="tel" id="mobile2" name="mobile" placeholder="Your Answer">
+
+        </div>
+        
+    </form>
+    
+    <button type="button" id="submit" onclick="printInput()">Submit</button>
+
+    <p id="password">Never submit passwords through Google Forms.</p>
+    
+</body>
