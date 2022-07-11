@@ -1,0 +1,140 @@
+.bd {
+    background-color: rgb(221, 192, 249);
+}
+
+.mainpage {
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+
+    font-family: 'Helvetica';
+    
+}
+
+.header {
+    background-color: rgb(300, 300, 300);
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+    border-radius: 10px;
+    
+    border-top: 7px solid;
+    border-color: blueviolet;
+
+    margin-bottom: 10px;
+}
+
+.mname {
+    font-size: 200%;
+    padding: 4%;
+}
+
+.desc {
+    font-size: 100%;
+    
+    padding: 1%;
+
+    position: relative;
+    left: 10px;
+    
+}
+
+.req {
+    font-size: 70%;
+    font-family: 'Verdana';
+    color: red;
+    position: relative;
+    left: 15px;
+}
+
+
+.f1 {
+    background-color: rgb(300, 300, 300);
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    
+    border-radius: 10px;
+    
+    margin-bottom: 10px;
+}
+
+.ast {
+    color: red;
+}
+
+.name_f1 {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 50%;
+}
+
+.f2 {
+    background-color: rgb(300, 300, 300);
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    
+    border-radius: 10px;
+    
+    margin-bottom: 10px;
+}
+
+.name_f2 {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 75%;
+}
+
+
+.f3 {
+    background-color: rgb(300, 300, 300);
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    
+    border-radius: 10px;
+    
+    margin-bottom: 10px;
+}
+
+.name_f3 {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 60%;
+}
+
+
+.f4 {
+    background-color: rgb(300, 300, 300);
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    
+    border-radius: 10px;
+    
+    margin-bottom: 10px;
+}
+
+.name_f4 {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 40%;
+}
+
+button {
+    background-color: blueviolet;
+    color: rgb(300, 300, 300);
+    padding: 2px 3px;
+}
+
+button:hover{
+    background-color: rgb(192, 154, 226);
+}
+
