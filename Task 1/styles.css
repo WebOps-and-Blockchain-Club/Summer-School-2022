@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Roboto,sans-serif;
+    display: flex;
+    flex-direction: column; /*Column makes items stack vertically*/
+    height: 100vh;
+    background-color: rgb(238, 232, 246);
+}
+
+.section{
+    border-top: 6px solid rgb(103, 3, 197);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left:30%;
+    margin-right:30%;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 30px;
+    align-items: left;
+}
+
+.author{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.info{
+    font-size: 14px;
+    padding: 7px 0px;
+}
+
+.warning{
+    font-size: 14px;
+    color: red;
+    padding: 0px 0px 6px 0px;
+}
+
+.reqd{
+    font-size: 14px;
+    color: red;
+}
+
+input{
+    flex: 1;
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 1px solid rgb(180,180,180);
+    outline: none;
+}
+
+button{
+    margin-top: 20px;
+    margin-left:30%;
+    margin-right:30%;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    background-color: rgb(103,3,197);
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.note{
+    margin-left:30%;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
