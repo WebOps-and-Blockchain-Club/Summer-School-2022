@@ -1,0 +1,60 @@
+
+
+h5{
+    color: Red;
+  }
+  .dot{
+    color: red;
+  }
+  .main{
+    background-color:lavender;
+  }
+  .Button{
+    background-color: blueviolet;
+    font-size: 15px;
+    margin-left: 450px;
+    margin-bottom: 20px;
+  }
+ 
+  .Box1{
+    background-color:white;
+    width: 500px;    
+    padding: 15px;
+    border: 3px white;
+    margin-left: 450px;
+    margin-bottom: 20px;
+    border-top: 10px solid blueviolet;
+  }
+  .Box2{
+    background-color: white;
+    width: 500px;    
+    padding: 15px;
+    border: 3px white;
+    margin-left: 450px;
+    margin-bottom: 20px;
+  } 
+  .Box3{
+    background-color: white;
+    width: 500px;    
+    padding: 15px;
+    border: 3px white;
+    margin-left: 450px;
+    margin-bottom: 20px;
+  } 
+  .Box4{
+    background-color: white;
+    width: 500px;    
+    padding: 15px;
+    border: 3px white;
+    margin-left: 450px;
+    margin-bottom: 20px;
+  } 
+  .Box5{
+    background-color: white;
+    width: 500px;    
+    padding: 15px;
+    border: 3px white;
+    margin-left: 450px;
+    margin-bottom: 20px;
+  }
+ 
