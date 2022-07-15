@@ -1,0 +1,164 @@
+body{
+    background-color:#eee7f6;
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #6604c5;
+}
+
+#Ananya_Venkateswaran{
+    font: 30px arial, sans-serif;
+    font-weight: bold
+}
+
+#description{
+    font: 12.5px arial, sans-serif;
+}
+
+#required{
+    font: 12.5px arial, sans-serif;
+    color: red;
+}
+
+#name{
+    background-color: white;
+    font: 12.5px arial, sans-serif;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15px;
+}
+
+#name1 em{
+    color: red;
+}
+
+#name2{
+    height: 12.5px;
+    width: 50%;
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 0.5px;
+    border-bottom-color: gray;
+    margin-top: 25px;
+}
+
+#college{
+    background-color: white;
+    font: 12.5px arial, sans-serif;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15px;
+}
+
+#college2{
+    height: 12.5px;
+    width: 50%;
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 0.5px;
+    border-bottom-color: gray;
+    margin-top: 25px;
+}
+
+#email{
+    background-color: white;
+    font: 12.5px arial, sans-serif;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15px;
+}
+
+#email1 em{
+    color: red;
+}
+
+#email2{
+    height: 12.5px;
+    width: 50%;
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 0.5px;
+    border-bottom-color: gray;
+    margin-top: 25px;
+}
+
+#mobile{
+    background-color: white;
+    font: 12.5px arial, sans-serif;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15px;
+}
+
+#mobile2{
+    height: 12.5px;
+    width: 50%;
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 0.5px;
+    border-bottom-color: gray;
+    margin-top: 25px;
+}
+
+#submit{
+    background-color: #6604c5;
+    color: white;
+    border: none;
+    font: 12.5px arial, sans-serif;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30%;
+    margin-right: 50%;
+    width: max-content;
+    margin-top: 30px;
+}
+
+#password{
+    font: 10px arial, sans-serif;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15px;
+    
+}
