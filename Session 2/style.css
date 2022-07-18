@@ -1,0 +1,67 @@
+*{
+    background-color:#CCCCCC;
+  }
+  h1{
+    color:black;  
+    font-weight:bold;
+    background-color:white;
+  }
+  h2{
+    background-color: purple;
+    width:20%;
+  }
+  .hh2{
+    color:black;
+    background-color:white;
+  }
+  input{
+    color: None;
+    border: None;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+  }
+  input:focus{
+    outline: None;
+    border-bottom: 1px solid lightgray;
+  }
+  .last{
+    color: black;
+    background-color: #CCCCCC;
+    margin-left: 19.25rem;
+    font-size: 14px;
+  }
+  .must{
+    color:black;
+    background-color:white;
+  }
+  .High{
+    color:red;
+    background-color: white;
+  }
+  .header{
+    padding: 25px;
+    border-top: 7px solid purple;
+    border-radius: 7px;
+    color: black;
+    background-color: white;
+    width: 50%;
+    margin: auto;
+  }
+  .body{
+    padding: 25px;
+    border-radius: 7px;
+    color: black;
+    background-color: white;
+    width: 50%;
+    margin: auto;
+  }
+  button{  
+    border-radius: 5px;
+    color: white;
+    background-color: purple;
+    padding: 6px;
+    border-color: purple;
+    margin-left: 19.25rem;
+  }
+  
+  
