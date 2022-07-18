@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="GFstyle.css">
+    <title>Google Form</title>
+</head>
+
+<script>
+    // function clicked(){
+    //     document.getElementById("aname").setAttribute(value,"here");
+    //     document.getElementById("aname").style.color = "black";
+    // }
+    // const name = document.getElementById("name");
+    // document.getElementById("name").onclick = document.getElementById("name").setAttribute(value,"");
+    // document.getElementById("name").onclick = document.getElementById("name").style.color;
+
+    function submitted(){
+
+    a1 = document.getElementById("aname").value;
+    a2 = document.getElementById("college").value;
+    a3 = document.getElementById("email").value;
+    a4 = document.getElementById("tele").value;
+    console.log(a1);
+    console.log(a2);
+    console.log(a3);
+    console.log(a4);
+
+}
+</script>
+
+<body>
+    <form>
+       
+        <div class="space1"></div>
+        
+        <!-- TITLE -->
+        <div class="title">
+            
+            <div class="pbar"></div>
+            <div class="titlebox">
+                
+                    <div class="p1">Shubham Kamble</div>
+                    <div class="p2">This is a google form. This form is created with HTML and CSS.</div>
+                    <div class="p3">*Required</div>
+                    
+                
+            </div>
+            <div class="lbar"></div>
+        </div>
+        
+        <div class="space"></div>
+
+        <!-- NAME -->
+        <div class="qbox">               
+            <div class="ubar"></div>
+            <div class="qcontentbox">
+                <div class="q">  
+                    <label for="name">What is your name?<font color = "red">*</font></label>
+                </div><br>
+               <div class="a"><input type="text" id="aname" name="name" value="Your answer"></div> <br>
+            </div>
+            
+            <div class="lbar"></div>
+        </div>
+        
+        <div class="space"></div>
+         
+        <!-- COLLEGE NAME -->
+        <div class="qbox">
+            <div class="ubar"></div>
+            <div class="qcontentbox">
+                <div class="q"><label for="college">Enter your college name.</label></div> <br>
+                <div class="a"><input type="text" id="college" name="college" value="Your answer"></div> <br>
+            </div>
+            <div class="lbar"></div>
+        </div>
+
+        <div class="space"></div>
+
+        <!-- EMAIL -->
+        <div class="qbox">
+            <div class="ubar"></div>
+            <div class="qcontentbox">
+                <div class="q"><label for="email">Enter your email.<font color = "red">*</font></label></div><br>
+                <div class="a"><input type="email" id="email" name="email" value="Your answer"></div><br>
+            </div>
+            
+            <div class="lbar"></div>
+        </div>
+
+        <div class="space"></div>
+
+        <!-- MOBILE NUMBER -->
+        <div class="qbox">
+            <div class="ubar"></div>
+            <div class="qcontentbox">
+                <div class="q"><label for="tele">Enter your mobile number.</label></div><br>
+                <div class="a"><input type="tel" id="tele" name="tele" value="Your answer"></div><br>
+            </div>
+            
+            <div class="lbar"></div>
+        </div>
+
+        <div class="space"></div> 
+
+        <div class="buttonbox"><button id="Submit" onclick="submitted()">Submit</button></div>
+
+    </form>
+
+    <div class="space1"></div>
+    <div class="advice">Never submit passwords through Google Forms.</div> 
+    <!-- <script src="GFJS.js"></script> -->
+</body>
+</html>
