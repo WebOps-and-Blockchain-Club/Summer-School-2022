@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <link rel="stylesheet" href="googleform.css">
+</head>
+<body>
+    <form action="success.html">
+    <div class="form title">
+      <h1>Ujjwal Aggarwal</h1><br>
+      <p>This is a google form. This form is created using HTML and CSS. <br><br> <span class="required">*Required</span></p>
+    </div>
+    
+    <div class="form name">
+      <p>What is your name?<span class="required">*</span> <br>
+      <input class="answer" name="username" id="username" type="text" placeholder="Your answer" required autocomplete="off"></p>
+    </div>
+    
+    <div class="form college">
+      <p>Enter your college name. <br>
+        <input class="answer" name="collegename" id="collegename" type="text" placeholder="Your answer" autocomplete="off"></p>
+    </div>
+    
+    <div class="form email">
+      <p>Enter your email.<span class="required">*</span> <br>
+      <input class="answer" name="useremail" id="useremail" type="email" placeholder="Your email" required autocomplete="off"></p>
+    </div>
+    
+    <div class="form mobile">
+      <p>Enter your mobile no.<br>
+      <input class="answer" name="usermobile" id="usermobile" type="number" inputmode="numeric" placeholder="Your answer" autocomplete="off"></p>
+    </div>
+    
+    <div class="form submit"><p><input onclick="googleformanswers()" type="submit" class="button" value="Submit">
+    </p></div>
+     
+    
+    <div class='form warning'>
+        Never submit passwords through Google Forms.
+    </div>
+</form> 
+<script src="googleform.js"></script>
+</body>
+</html>
