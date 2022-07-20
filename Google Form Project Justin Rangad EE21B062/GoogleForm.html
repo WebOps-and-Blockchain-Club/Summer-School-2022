@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="GoogleForm.css">
+  <title>Google Form</title>
+</head>
+<body>
+<div class="Heading">
+    <h1 class="pname">Justin Jeremiah Rangad</h1>
+    <div>This form was made using HTML and CSS</div>
+    <div class="required">*Required</div>
+</div>
+<div class="Name">
+    <div class="name">Enter your name<span class="required">*</span></div>
+    <div class="name-input"><input id="nam" type="input" name="answer" placeholder="Your answer"></div>
+</div>
+<div class="College">
+    <div class="college">Enter your college name</div>
+    <div class="college-input"><input id="colleg" type="input" name="answer" placeholder="Your answer"></div>
+</div>
+<div class="Email">
+    <div class="email">Enter your email<span class="required">*</span></div>
+    <div class="email-input"><input id="emai" type="input" name="answer" placeholder="Your answer"></div>
+</div>
+<div class="Mobile">
+    <div class="mobile">Enter your mobile number</div>
+    <div class="mobile-input"><input id="mobil" type="input" name="answer" placeholder="Your answer"></div>
+</div>
+<div class="Button">
+    <button onclick="consoledisp()">Submit</button>
+</div>
+<div class="end">
+    Never submit passwords through google forms.
+</div>
+<script>function consoledisp(){
+    console.log("Name:" +document.querySelector("#nam").value);
+    console.log("college:" +document.querySelector("#colleg").value);
+    console.log("Email:" +document.querySelector("#emai").value);
+    console.log("Mobile no.:" +document.querySelector("#mobil").value);
+}
+</script>
+  
+</body>
+</html>

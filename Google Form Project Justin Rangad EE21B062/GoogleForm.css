@@ -1,0 +1,127 @@
+
+body{
+    height: 1100px;
+	width: 600px;
+	margin: auto;
+    background-color: #ede7f6;
+    font-family:sans-serif;
+}
+.required{
+    padding-top:10px;
+    font-size: 15px;
+    color: red;
+
+}
+.Heading{
+    margin: 15px;
+    border-radius: 8px;
+    border-top:10px;
+    border-bottom:0px;
+    border-left:0px;
+    border-right:0px;
+    border-style: solid;
+    border-color: rgb(103, 58, 183);
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    background-color:#fff;
+
+}
+.Name{
+    margin:15px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color:#fff;
+}
+
+.name-input{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.name-input input{
+    width: 300px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1.5px solid rgb(15, 14, 14);
+	font-size: 15px;
+}
+.College{
+    margin: 15px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: #fff;
+}
+.college-input{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.college-input input{
+    width:300px;
+    border:0;
+    outline:0;
+    border-bottom:1.5px solid rgb(7, 7, 7);
+    font-size: 15px;
+
+}
+.Email{
+    margin: 15px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color:#fff;
+}
+.email-input{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.email-input input{
+    width:300px;
+    border:0;
+    outline:0;
+    border-bottom:1.5px solid rgb(10, 10, 10);
+    font-size: 15px;
+
+
+}
+.Mobile{
+    margin: 15px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color:#fff;
+}
+.mobile-input{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.mobile-input input {
+    width:300px;
+    border:0;
+    outline:0;
+    border-bottom:1.5px solid rgb(4, 4, 4);
+    font-size: 15px;
+
+}
+.pname{
+    margin-top: 0;
+    font-weight: bold;
+}
+.Button button{
+    color: #fff;
+    background-color:rgb(103, 58, 183);
+    margin: 15px;
+    width: 90px;
+    height:30px;
+    border-radius: 6px;
+    border:none;
+    outline: none;
+}
+.end{
+    font-size: 12px;
+    margin:12px;
+    color:black;
+
+}
