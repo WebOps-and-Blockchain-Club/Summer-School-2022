@@ -1,0 +1,50 @@
+.rectangle{
+    left:29%;
+    border-top: 5px rgb(232, 17, 232);
+    align-items:center;
+    padding-top: 40px;
+      width:600px;
+      height:150px;
+      border:1px solid rgba(144, 140, 140, 0.126); 
+      position: relative;
+      text-align: left;
+      line-height: 25px;
+      border-radius: 10px;
+      background-color: rgb(252, 252, 252);
+      border-top: 10px solid rgba(76, 20, 141, 0.845);
+}
+
+.rectangle1{
+    left:29%;
+    border-top: 5px rgb(232, 17, 232);
+    align-items:center;
+    padding-top: 40px;
+      width:600px;
+      height:100px;
+      border:1px solid rgba(144, 140, 140, 0.126); 
+      position: relative;
+      text-align: left;
+      line-height: 17px;
+      border-radius: 10px;
+      background-color: rgb(252, 252, 252);
+ }
+
+ .rectangle1 input {
+    flex: 1;
+    border: none;
+    outline: none;
+  }
+
+ .submit_button {
+    background-color: #761ea9;
+    color: rgb(255, 255, 255);
+     height: 30px;
+    width: 80px;
+    font: bold15px arial,sans-serif;
+    border-radius: 7px;
+    align-items:center;
+    margin-left: 29.2%;
+    cursor: pointer;
+}
+
+ 
