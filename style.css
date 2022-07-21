@@ -1,0 +1,61 @@
+*{
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgb(234, 227, 239);
+
+    font-size: small;
+}
+.header{
+    background-color: white;
+
+    border-radius: 20px;
+    min-height: 150px;
+    min-width:500px;
+}
+
+
+.fill{
+    display: block;
+    background-color: white;
+    border-radius: 15px;
+    min-height: 120px;
+    min-width:500px;
+    margin-top: 1%;
+
+}
+input{
+    flex:1;
+    margin-top: 3%;
+    outline: none;
+    border: none;
+}
+
+button{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 4px;
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    margin-right: 400px;
+    margin-top: 2%;
+}
+
+
+.sep{
+    margin-left: 4%;
+    margin-top: 5%;
+}
+body input{
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+.last{
+    margin-top: none;
+    margin-right: 14%;
+}
