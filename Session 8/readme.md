@@ -1,4 +1,4 @@
-This folder contains resources related to content delivered in Session 7 of CFI Summer School, 2022.
+This folder contains resources related to content delivered in Session 8 of CFI Summer School, 2022.
 
 Recording of the session: https://drive.google.com/file/d/1_4pDDT-OiRJ2Ekcsa5pwalRYE8dRj1ua/view?usp=drivesdk
 
