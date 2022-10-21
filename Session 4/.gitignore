@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 node_modules
+=======
+node_modules
+>>>>>>> bf48e58 (windows -> wsl)
 .env
