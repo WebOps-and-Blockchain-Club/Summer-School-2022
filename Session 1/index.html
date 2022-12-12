@@ -1,49 +1,54 @@
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Google Font Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="main.css" />
-    <title>Final - Google Clone</title>
-  </head>
-  <body>
-    <!-- Header Starts -->
-    <div class="header">
-      
-      <div class="header__right">
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
-        <span class="material-icons header__apps"> apps </span>
-        <span class="material-icons"> account_circle </span>
-      </div>
+    <link rel="stylesheet" href="style.css" />
+    <title>Google Form</title>
+</head>
+
+<body>
+    <div class="main">
+        <!-- this is a div for the color -->
+        <div class="vcolor"></div>
+
+        <!-- Div containing the main title head of the form -->
+        <div class="details">
+            <strong><p id='aname' style="font-size: 30px;">Shivansh Srivastava</p></strong>
+            <p id="des">This is a google form. This form is created with HTML and CSS.</p>
+            <p id="req"><span style="color:red ;">*Required</span></p>
+        </div>
+        
+        <!-- this is a div containing name -->
+        <div class="name">
+            <p>What is your name?<span style="color: red;">*</span></p>
+            <input  placeholder="Your Answer">
+        </div>
+
+        <div class="name">
+            <p>Enter your college name</p>
+            <input  placeholder="Your Answer">
+        </div>
+
+        <div class="name">
+            <p>Enter your email.<span style="color: red;">*</span></p>
+            <input  placeholder="Your Answer">
+        </div>
+
+        <div class="name">
+            <p>Enter your mobile number</p>
+            <input  placeholder="Your Answer">
+        </div>
+
+        
+        <button id="submit">Submit</button>
+        <p id="dis">Never Submit password through google Forms.</p>
+
+        <div class="empty"></div>
+
     </div>
-    <!-- Header Ends -->
 
-    <!-- Main Body Starts -->
-    <div class="mainBody">
-      <img
-        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-        alt="Google Logo"
-      >
+</body>
 
-      <!-- Search Starts -->
-      <div class="search">
-        <div class="search__input">
-          <span class="material-icons"> search </span>
-          <input type="text" />
-          <span class="material-icons"> mic </span>
-        </div>
-
-        <div class="search__buttons">
-          <button>Google Search</button>
-          <button>I'm Feeling Lucky</button>
-        </div>
-      </div>
-      <!-- Search Ends -->
-
-      
-    <!-- Main Body Ends -->
-  </body>
 </html>
